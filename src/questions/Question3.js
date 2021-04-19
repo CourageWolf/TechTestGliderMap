@@ -49,23 +49,24 @@ export default function Question3(props) {
 
   /**
    * Strategy for Question 3...
-   * 
-   * My idea for this question is to have a drop down menu that you could select different views: 
+   *
+   * My idea for this question is to have a drop down menu that you could use to select two different views:
    * - one view to locate/inspect stops
    * - one view to track busses/routes
-   * 
+   *
    * If you are in the stops view...
    * - Each stop is represented as a pin on the map
    * - Clicking on a pin would have a modal appear above it that contains the stop info
-   * 
+   *
    * If you are in the routes view...
    * - You would have a bus icon showing where a bus is located on the map
    * - You would have a route from one stop to another highlighted in blue that the bus is currently on
    * - If you click on the bus a modal for the busses tracking information would appear
-   * 
+   *
    * To implement this plan, the main challenge would be to collect the data from the Journey Planner API
-   * and then have the selected view of the map component re-render to display this new data 
-   * 
+   * and then have the selected view of the map component re-render to display this new data
+   *
+   * Feel free to ask me to elaborate on this strategy!
    */
 
   return (
